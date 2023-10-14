@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #00FFFF;
+	font-family: 'Onest', sans-serif;
+}
+.main{
+	background-color: #fff;
+	display: flex;
+	width: 95%;
+	margin: auto;
+	box-shadow: 0 0 30px 10px black;
+	flex-wrap: wrap;
+}
+.item{
+	height: 400px;
+	width: 678px;
+	background-color: blue;
+	margin: 10px;
+	background-position: center;
+	background-size: cover;
+	transition: 5s;
+}
+.heading{
+	font-size: 50px;
+	color: green;
+	width: 100%;
+	text-align: center;
+	margin: 30px;
+}
+.item:hover{
+	/*opacity: 0.5;*/
+	transform: scale(0.5);
+	transform: rotate(360deg)scale(0.5);
+	/*filter: blur(15px);*/
+	/*filter: grayscale(100%);*/
+	filter: contrast(150%);
+}
